@@ -1,3 +1,6 @@
+![wireframe for shell-game](./assets/city-builder-wireframe.png)
+
+
 ## The Golden Rule:
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
