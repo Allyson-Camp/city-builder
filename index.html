@@ -32,19 +32,53 @@
 
     <main>
 
-        <section id="images">
-            <img id="dallas-skyline"/>
-            <img id="hong-kong-skyline"/>
-            <img id="london-skyline"/>
+        <section class="images">
+            <img id="neon-skyline"/>
+            <img id="waterfront-skyline"/>
+            <img id="lively-skyline"/>
             <img id="colorful-art"/>
             <img id="simple-art"/>
             <img id="banksy-art"/>
+            <img id="bridge-park"/>
+            <img id="kids-park"/>
+            <img id="trees-park"/>
         </section>
 
-        <section id="dropdowns">
+        <section class="dropdowns">
+            <select id="skyline-dropdown">
+                <option value="">Choose your skyline</option>
+                <option value="neon">Neon</option>
+                <option value="waterfront">Waterfront</option>
+                <option value="lively">Lively</option>
+            </select>
+            <div>
+                You changed skylines <span id="skyline-count">0</span> times
+            </div>
+
+            <select id="art-dropdown">
+                <option value="">Choose your art style</option>
+                <option value="colorful">Colorful</option>
+                <option value="simple">Simlistic</option>
+                <option value="Banksy">Banksy</option>
+            </select>
+            <div>
+                You changed art styles <span id="art-count">0</span> times
+            </div>
+
+            <select id="park-dropdown">
+                <option value="">Choose your park</option>
+                <option value="bridge">Bridge & stream</option>
+                <option value="kids">Family friendly</option>
+                <option value="trees">Pink trees</option>
+            </select>
+            <div>
+                You changed parks <span id="park-count">0</span> times
+            </div>
         </section>
 
-        <section id="slogans">
+        <section class="slogans">
+            <input id="slogan-input" placeholder="Give your city a slogan"/>
+            <button id="slogan-button">Create</button>
         </section>
         
     </main>
