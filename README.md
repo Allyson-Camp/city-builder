@@ -11,11 +11,11 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 
 <!-- 1. **Make a drawing of your app. Simple "wireframes"** -->
 1. **Look at the drawing and name the HTML elements you'll need to realize your vision**
-    - 3 dropdowns w/ selectEl.value
-    -slogan input field 
+    <!-- - 3 dropdowns w/ selectEl.value
+    <!-- -slogan input field DONE
     - submit button
-    -3 divs for photos
-    -div for slogans w/ p within
+    -3 divs for photos -->
+    <!-- -div for slogans w/ p within -->
 1. **Look at the drawing and imagine using the app. What _state_ do you need to track?**
     - tracking which dropdown is being chosen/what photo shows
     - tracking what has been entered in the slogan input
@@ -25,6 +25,7 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
         - let user select different options
     -slogan input field 
         - let user put in a slogan and to track entries
+        - track a list of submissions with an array
     - submit button
         - submit what has been typed in the input
     -3 divs for photos

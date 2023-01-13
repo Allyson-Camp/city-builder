@@ -32,16 +32,10 @@
 
     <main>
 
-        <section class="images">
-            <img id="neon-skyline"/>
-            <img id="waterfront-skyline"/>
-            <img id="lively-skyline"/>
-            <img id="colorful-art"/>
-            <img id="simple-art"/>
-            <img id="banksy-art"/>
-            <img id="bridge-park"/>
-            <img id="kids-park"/>
-            <img id="trees-park"/>
+        <section class="images-display">
+            <div id="skyline"></div>
+            <div id="art"></div>
+            <div id="park"></div>
         </section>
 
         <section class="dropdowns">
@@ -58,7 +52,7 @@
             <select id="art-dropdown">
                 <option value="">Choose your art style</option>
                 <option value="colorful">Colorful</option>
-                <option value="simple">Simlistic</option>
+                <option value="simple">Simplistic</option>
                 <option value="Banksy">Banksy</option>
             </select>
             <div>
@@ -76,11 +70,16 @@
             </div>
         </section>
 
+        
         <section class="slogans">
-            <input id="slogan-input" placeholder="Give your city a slogan"/>
+            <input id="slogan-input"/>
             <button id="slogan-button">Create</button>
         </section>
-        
+
+        <div>
+            <div id="slogans-display"></div>
+        </div>
+    
     </main>
 
 </body>
