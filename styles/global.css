@@ -33,3 +33,21 @@ header .logo {
 main {
     padding: 20px;
 }
+
+.images-display {
+    width: 400px;
+    height: 600px;
+    display: grid;
+}
+
+#skyline {
+    background-repeat: no-repeat;
+}
+
+#park {
+    background-repeat: no-repeat;
+}
+
+#art {
+    background-repeat: no-repeat;
+}

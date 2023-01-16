@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- title and favicon -->
-    <title>Web App</title>
+    <title>Build your dream City</title>
     <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
     <!-- js -->
@@ -27,11 +27,59 @@
 <body>
     <header>
         <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
+        <h1>Build your dream City</h1>
     </header>
 
     <main>
 
+        <section class="images-display">
+            <div id="skyline"></div>
+            <div id="art"></div>
+            <div id="park"></div>
+        </section>
+
+        <section class="dropdowns">
+            <select id="skyline-dropdown">
+                <option value="">Choose your skyline</option>
+                <option value="neon">Neon</option>
+                <option value="waterfront">Waterfront</option>
+                <option value="lively">Lively</option>
+            </select>
+            <div>
+                You changed skylines <span id="skyline-count">0</span> times
+            </div>
+
+            <select id="art-dropdown">
+                <option value="">Choose your art style</option>
+                <option value="colorful">Colorful</option>
+                <option value="simple">Simplistic</option>
+                <option value="Banksy">Banksy</option>
+            </select>
+            <div>
+                You changed art styles <span id="art-count">0</span> times
+            </div>
+
+            <select id="park-dropdown">
+                <option value="">Choose your park</option>
+                <option value="bridge">Bridge & stream</option>
+                <option value="kids">Family friendly</option>
+                <option value="trees">Pink trees</option>
+            </select>
+            <div>
+                You changed parks <span id="park-count">0</span> times
+            </div>
+        </section>
+
+        
+        <section class="slogans">
+            <input id="slogan-input"/>
+            <button id="slogan-button">Create</button>
+        </section>
+
+        <div>
+            <div id="slogans-display"></div>
+        </div>
+    
     </main>
 
 </body>
